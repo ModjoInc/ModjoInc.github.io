@@ -77,11 +77,13 @@ header, main, nav, aside, footer {
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 8em;
+  text-align: center;
 }
 
 h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 5em;
+  text-align: center;
 }
 
 p {
@@ -91,12 +93,44 @@ p {
 }
 
 header {
-  background: -moz-linear-gradient(#dd7230, #f4c95d);
-  /*background-color: -webkit-linear-gradient (#dd7230, #f4c95d);
-  background-color: -o-linear-gradient (#dd7230, #f4c95d);
-  background-color: linear-gradient (#dd7230, #f4c95d);*/
-  background-color: #dd7230;
-  color: #eff0d1;
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+header:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap;
+  color: white;
+  font-size: 5em;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 
 nav {
@@ -126,7 +160,7 @@ nav a {
  }
 
 nav a:hover {
-     background-color: #dd7230;
+     background: -moz-linear-gradient(#dd7230,#f4c95d);
      color: white;
  }
 
