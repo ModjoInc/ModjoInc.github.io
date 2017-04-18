@@ -90,7 +90,7 @@ p {
 }
 
 header {
-  background: linear-gradient (#dd7230,#f4c95d);
+  background: -moz-linear-gradient (#dd7230,#f4c95d);
   color: white;
 }
 
@@ -138,13 +138,13 @@ nav a:visited {
   font-size: 1.5em;
   line-height: 1.5em;
   opacity: 0.8;
-  background: linear-gradient  (#f4c95d,#e7e393);
+  background: -moz-linear-gradient  (#f4c95d,#e7e393);
   min-height: 300px;
   color: black;
 }
 
 aside {
-  background: linear-gradient (#e7e393,#dd7230);
+  background: -moz-linear-gradient (#e7e393,#dd7230);
   min-height: 300px;
   opacity: 0.9;
   color: #2e1f27;
