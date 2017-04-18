@@ -90,7 +90,7 @@ p {
 }
 
 header {
-  background-color: #dd7230;
+  background: linear-gradient (#dd7230,#f4c95d);
   color: white;
 }
 
@@ -138,13 +138,13 @@ nav a:visited {
   font-size: 1.5em;
   line-height: 1.5em;
   opacity: 0.8;
-  background-color: #f4c95d;
+  background: linear-gradient  (#f4c95d,#e7e393);
   min-height: 300px;
   color: black;
 }
 
 aside {
-  background-color: #e7e393;
+  background: linear-gradient (#e7e393,#dd7230);
   min-height: 300px;
   opacity: 0.9;
   color: #2e1f27;
@@ -162,6 +162,22 @@ ul {
 
 .aside-2 {
   opacity: 0.8;
+}
+.divers {
+    display: grid;
+    grid-template-columns: 10em 1fr;
+}
+
+.langues {
+  grid-column: 1 / span 2;
+  justify-self: center;
+  align-self: center;
+}
+
+.hobby {
+  grid-column: 2;
+  justify-self: center;
+  align-self: center;
 }
 
 footer {
