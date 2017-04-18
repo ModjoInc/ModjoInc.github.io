@@ -90,8 +90,8 @@ p {
 }
 
 header {
-  /*background-color: -moz-linear-gradient (#dd7230, #f4c95d);
-  background-color: -webkit-linear-gradient (#dd7230, #f4c95d);
+  background: -moz-linear-gradient(#dd7230, #f4c95d);
+  /*background-color: -webkit-linear-gradient (#dd7230, #f4c95d);
   background-color: -o-linear-gradient (#dd7230, #f4c95d);
   background-color: linear-gradient (#dd7230, #f4c95d);*/
   background-color: #dd7230;
