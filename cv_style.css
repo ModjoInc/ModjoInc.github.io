@@ -91,6 +91,8 @@ p {
 
 header {
   background: -moz-linear-gradient (#dd7230,#f4c95d);
+  background: -webkit-linear-gradient (#dd7230,#f4c95d);
+  background: -o-linear-gradient (#dd7230,#f4c95d);
   color: white;
 }
 
