@@ -168,6 +168,8 @@ ul {
 .divers {
     display: grid;
     grid-template-columns: 10em 1fr;
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .langues {
