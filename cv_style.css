@@ -90,9 +90,11 @@ p {
 }
 
 header {
-  background: -moz-linear-gradient (#dd7230,#f4c95d);
-  background: -webkit-linear-gradient (#dd7230,#f4c95d);
-  background: -o-linear-gradient (#dd7230,#f4c95d);
+  /*background-color: -moz-linear-gradient (#dd7230, #f4c95d);
+  background-color: -webkit-linear-gradient (#dd7230, #f4c95d);
+  background-color: -o-linear-gradient (#dd7230, #f4c95d);
+  background-color: linear-gradient (#dd7230, #f4c95d);*/
+  background-color: #dd7230;
   color: white;
 }
 
@@ -167,21 +169,24 @@ ul {
 }
 .divers {
     display: grid;
-    grid-template-columns: 10em 1fr;
-    color: grey;
-    font-family: 'Montserrat', sans-serif;
+    grid-template-columns: 20em 1fr;
 }
 
+.divers ul {
+  color: grey;
+  font-family: 'Montserrat', sans-serif;
+}
+.titre_hobby {
+  grid-column: 1;
+  color: grey;
+  font-size: 2.5em;
+}
 .langues {
-  grid-column: 1 / span 2;
-  justify-self: center;
-  align-self: center;
+  grid-column: 2;
 }
 
 .hobby {
-  grid-column: 2;
-  justify-self: center;
-  align-self: center;
+  grid-column: 3;
 }
 
 footer {
